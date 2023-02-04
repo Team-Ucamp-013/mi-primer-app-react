@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello';
+import Counter from './components/Counter';
 import Padre from './components/Padre';
 
 function App() {
@@ -14,6 +13,8 @@ function App() {
       <button onClick={() => handleClick()}>
         Click me
       </button>
+
+      <Counter />
     </div>
   );
 }
